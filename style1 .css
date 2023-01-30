@@ -1,0 +1,77 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*immagine di sfondo*/
+body{
+    background-image: url(background.jpg);
+    width: auto; 
+    height: 60%;
+   background-size: cover;
+    padding: 5% 5%;
+}
+
+#sfondo-nero{
+    background-color:rgba(0,0,0,0.5);
+    margin: 0% 15% 0% 15%;
+}
+
+header{
+    text-align: center;
+    color: greenyellow;
+}
+
+.logo-testata{
+    width: 200px; 
+    height: auto; 
+    margin-top: 5%;
+}
+
+nav{
+    background-color: greenyellow;
+    margin: 0% 15% 0% 15%;
+    text-align: center;
+    padding: 0.5% 0.5%;
+}
+
+main{
+    margin: 2% 0% 0% 15%;
+    color: aliceblue;
+    padding-bottom: 3%;
+}
+
+/*questa parte riguarda le varie sezioni di main*/
+section{
+    color: lightgray;
+}
+
+.nome-titolare{
+    display: inline-block;
+    margin-bottom: 1%; 
+    color: aliceblue;
+} 
+
+.freccia-via:before{
+    content: "\21A3";
+}
+
+.-distanza:before{
+    content: "\2010";
+}
+
+/*qui ci sono le classi dei vari stati di carica*/
+
+hr.carica1{
+    border: 10px solid green ;
+    border-radius: 5px;
+    margin-right: 55%;
+}
+hr.carica2{
+    border: 10px solid yellow;
+    border-radius: 5px;
+    margin-right: 80%;
+}
+hr.carica3{
+    border: 10px solid red;
+    border-radius: 5px;
+    margin-right: 95%;
+}
